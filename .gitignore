@@ -1,0 +1,32 @@
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Backend (Java / Maven)
+**/target/
+**/.mvn/
+**/.classpath
+**/.project
+**/.settings/
+**/*.class
+**/*.jar
+**/*.war
+
+# Frontend (Node / React)
+**/node_modules/
+**/dist/
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/*.log
