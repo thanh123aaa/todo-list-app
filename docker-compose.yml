@@ -50,8 +50,24 @@ services:
     networks:
       - todo-network
 
+  caddy:
+    image: caddy:2-alpine
+    container_name: caddy-ssl
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+    command: caddy reverse-proxy --from 35-247-136-5.sslip.io --to backend:8080
+    networks:
+      - todo-network
+
 volumes:
   mysql_data:
+  caddy_data:
+  caddy_config:
 
 networks:
   todo-network:
