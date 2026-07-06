@@ -1,6 +1,6 @@
 # Todo List App
 
-Ứng dụng quản lý công việc (Todo List) được xây dựng bằng Java Spring Boot (Backend) và React + TypeScript (Frontend) theo cấu trúc giao diện tối giản của Todoist.
+Ứng dụng quản lý công việc (Todo List) được xây dựng bằng Java Spring Boot (Backend) và React + TypeScript (Frontend).
 
 - **Demo trực tuyến**: [https://todo-list-app-five-omega.vercel.app/](https://todo-list-app-five-omega.vercel.app/)
 
